@@ -1,0 +1,82 @@
+*{margin: 0; padding: 0;}
+
+/*css menu*/
+.fa{
+    font-size: 40px;
+    margin-right: 100px;
+    position: relative;
+    transition: 0.4s;
+}
+
+.menu_top_app{
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    background-color: aqua;
+    width: 100px;
+}
+.menu_top_app > li.link{
+    bottom: 5px;
+    list-style: none;
+}
+.menutop_app > a{
+    text-decoration: none;
+    color: rgb(236, 236, 243);
+}
+
+.menutop_app:hover .menu_top_app{
+    visibility: visible;
+    opacity: 1;
+}
+
+.bg-image{
+    background-image: url(bg-masthead.jpg);
+    height: 300px;
+}
+
+.bg-image2{
+    background-image: url(bg-callout.jpg);
+    height: 400px;
+    max-width: 100%;
+}
+.bg-image2 .text-white{
+    margin: auto;
+}
+.b{
+    width: 200px;
+}
+img.b{
+    width: 30%;
+    border-radius: 45%;
+}
+.bg-img{
+    background-image: url(portfolio-1.jpg);
+    max-width: 400px;
+    height: 300px;
+}
+.bg-img1{
+    background-image: url(portfolio-2.jpg);
+    max-width: 400px;
+    height: 300px;
+}
+.bg-img2{
+    background-image: url(portfolio-3.jpg);
+    max-width: 400px;
+    height: 300px;
+}
+.bg-img3{
+    background-image: url(portfolio-4.jpg);
+    max-width: 400px;
+    height: 300px;
+}
+h6.latter{
+    padding-top: 40%;
+    padding-left: 30px;
+    text-align: left;
+    color: white;
+}
+p.latter{
+    color: white;
+    padding-left: 30px;
+    text-align: left;
+}
